@@ -1,0 +1,22 @@
+php_value post_max_size 500M
+php_value upload_max_filesize 500M
+# Mod_Autoindex
+<IfModule mod_autoindex.c>
+    # Disable Indexes
+    Options -Indexes
+    IndexIgnore */*
+</IfModule>
+
+# Mod_Rewrite
+<IfModule mod_rewrite.c>
+    Options +FollowSymlinks
+    # Enable mod_rewrite
+    
+    RewriteEngine On
+   
+    RewriteRule ^backend(/.*)$ backend/web/$1 [L,PT]
+    RewriteRule ^version.txt$ version.txt [L,PT]
+    RewriteRule ^(.*)$ frontend/web/$1
+
+</IfModule>
+

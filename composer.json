@@ -1,0 +1,56 @@
+{
+    "name": "yiisoft/yii2-app-advanced",
+    "description": "Yii 2 Advanced Application Template",
+    "keywords": ["yii2", "framework", "advanced", "application template"],
+    "homepage": "http://www.yiiframework.com/",
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/yiisoft/yii2/issues?state=open",
+        "forum": "http://www.yiiframework.com/forum/",
+        "wiki": "http://www.yiiframework.com/wiki/",
+        "irc": "irc://irc.freenode.net/yii",
+        "source": "https://github.com/yiisoft/yii2"
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*",
+        "yiisoft/yii2-bootstrap": "*",
+        "yiisoft/yii2-swiftmailer": "*",
+        "rmrevin/yii2-fontawesome": "2.8.*",
+        "gietos/yii2-ionicons": "2.0.*",
+        "linslin/yii2-curl": "*",
+        "2amigos/yii2-ckeditor-widget": "~1.0",
+        "kartik-v/yii2-widget-rating": "*",
+        "kartik-v/yii2-widget-fileinput": "*",
+        "yiisoft/yii2-jui": "~2.0",
+        "kartik-v/yii2-widget-typeahead": "*",
+        "karpoff/yii2-crop-image-upload": "*",
+        "bupy7/yii2-widget-cropbox": "*",
+        "newerton/yii2-jcrop": "dev-master",
+        "vova07/yii2-fileapi-widget": "*",
+        "yiidoc/yii2-redactor": "*",
+        "skeeks/yii2-widget-chosen": "*",
+        "kartik-v/yii2-widget-alert": "*",
+        "kartik-v/yii2-widget-growl": "*",
+        "kartik-v/yii2-widget-datepicker": "@dev",
+        "kartik-v/yii2-field-range": "*",
+        "dmstr/yii2-adminlte-asset": "1.*"
+    },
+    "require-dev": {
+        "yiisoft/yii2-codeception": "*",
+        "yiisoft/yii2-debug": "*",
+        "yiisoft/yii2-gii": "~2.0",
+        "yiisoft/yii2-faker": "*"
+    },
+    "config": {
+        "process-timeout": 1800
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}

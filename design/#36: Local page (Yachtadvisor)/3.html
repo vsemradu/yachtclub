@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport' />
+        <title>index</title>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="../vendor/bower/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../vendor/bower/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../css/owl.carousel.css">
+        <link rel="stylesheet" href="../vendor/bower/ionicons/css/ionicons.min.css">
+        <link href="../css/main.css" rel="stylesheet">
+        <!-- END CSS -->
+
+    </head>
+    <body>
+
+        <nav class="container-fluid head-menu">
+            <div class="row">
+
+                <a href="#" class="logo">
+                    <img src="../img/logo.png" alt="">
+                </a>
+
+                <i class="ion-navicon open-menu"></i>
+
+                <div class="left-collapse">
+                    <ul>
+                        <li>
+                            <form>
+                                <input type="text" class="search" placeholder="Search">
+                                <i class="ion-ios-search-strong"></i>
+                            </form>
+                        </li>
+
+                        <li>
+                            <div class="head-dropdown">
+                                <div class="photo">
+                                    <!--                                       <img src="img/ph.png" alt="">-->
+                                </div>
+
+                                <div class="name">
+                                    Jane
+                                    <br>
+                                    Appleseed
+                                </div>
+                                <i class="fa fa-caret-down"></i>
+                            </div>
+
+                            <ul class="head-drop-down-open">
+                                <li><a href="#">item</a></li>
+                                <li><a href="#">item</a></li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="#" class="nav-login-btn">
+                                <i class="fa fa-pencil"></i>
+                                Edit
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="nav-login-btn red">
+                                <i class="fa fa-power-off"></i>
+                                Logout
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        
+        <section class="local-page_map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5523480.157299491!2d35.4455652625!3d47.470199582706826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d1d9c154700e8f%3A0x1068488f64010!2z0KPQutGA0LDQuNC90LA!5e0!3m2!1sru!2sua!4v1436876318406" frameborder="0" allowfullscreen></iframe>
+        </section>
+
+       
+        
+        
+        <section class="container local-pins second">
+            <a href="#" class="local-pins_icon general_information">
+                <span></span>
+                General Information
+            </a>
+            <a href="#" class="local-pins_icon entry_formalities">
+                <span></span>
+                Entry &amp; Formalities
+            </a>
+            <a href="#" class="local-pins_icon weather_tides">
+                <span></span>
+                Weather &amp; Tides
+            </a>
+            <a href="#" class="local-pins_icon nautic_navigation">
+                <span></span>
+                Nautic &amp; Navigation
+            </a>
+            <a href="#" class="local-pins_icon business_sevices">
+                <span></span>
+                Business &amp; Services
+            </a>
+            <a href="#" class="local-pins_icon local_life">
+                <span></span>
+                Local Life
+            </a>
+        </section>
+
+        
+        
+        <section class="container-fluid blue-section-second second">
+            <div class="row">
+                <div class="container">
+                    <p class="title second">
+                        Please click on the map above for detailed weather and tide information
+                    </p>
+                </div>
+            </div>
+        </section>
+        
+        
+        
+        <!-- FOOTER -->
+
+        <footer class="container-fluid">
+            <div class="row">
+                <div class="container">
+                    <a href="#" class="logo">
+                        <img src="../img/logo.png" alt="footer logo">
+                    </a>
+
+                    <div class="soc-footer">
+                        <a href="#">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+
+                        <a href="#">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+
+                        <a href="#">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+        <!-- JS -->
+        <script src="../vendor/bower/jquery/dist/jquery.min.js"></script>
+        <script src="../vendor/bower/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="../js/owl.carousel.min.js"></script>
+        <script src="../js/main.js"></script>
+        <script src="../../frontend/web/js/business.js"></script>
+        
+        <script>
+            $(".slider-bus").owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 2
+                    },
+                    1000: {
+                        items: 3
+                    }
+                }
+            });
+        </script>
+        
+        
+    </body>
+</html>
